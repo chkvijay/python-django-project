@@ -11,12 +11,12 @@ spec:
   metadata:
    labels:
     app: python
- spec:
-  containers:
-   - name: python-app
-     image: chkvijay/pipeline-build
-     imagePullPolicy: Always
-     ports:
-      - containerPort: 8000
+  spec:
+   containers:
+    - name: python-app
+      image: chkvijay/pipeline-build
+      imagePullPolicy: Always
+      ports:
+       - containerPort: 8000
 
  
