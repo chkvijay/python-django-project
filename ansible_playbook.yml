@@ -5,6 +5,8 @@
      command: kubectl delete -f /home/ubuntu/deployment.yml
    - name: delete the old service
      command: kubectl delete -f /home/ubuntu/service.yml
+   - name: pause the terminal to delete the image
+     command: sleep 10
    - name: removing the latest image from minikube
      command: docker rmi chkvijay/pipeline-build
    - name: creating the new deployment 
