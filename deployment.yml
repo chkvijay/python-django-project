@@ -17,6 +17,6 @@ spec:
      image: chkvijay/pipeline-build
      imagePullPolicy: Always
      ports:
-      - containerPort: 8080
+      - containerPort: 8000
 
  
