@@ -1,6 +1,5 @@
 - name: deploying python app on the minikube cluster
   hosts: all
-  become: true
   tasks:
   #- name: delete the old deployment
   #  command: kubectl delete -f /home/ubuntu/deployment.yml
